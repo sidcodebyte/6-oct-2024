@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Css class 1st</title>
+        <style>
+            div{
+                color: rgb(252, 251, 251);
+                font-size: 2em;
+                background: rgba(123, 13, 187, 0.879);
+            }/* 1em=16px */
+            img{
+            border-width: 10px;
+            border-color: rgb(247, 28, 28);
+            border-style: solid;
+            }
+            img#i1{border: 10px dotted blue; /* by wring all border with, border clour and border style at diff row, we use shortcut , we simply right boarder,then give border type and colour in 1 place*/
+                } 
+                div#d2{
+                background: #fffdfd;
+                }
+                div#d3{
+                    color: #000;
+                    background:white;
+                }
+                table{border:solid;
+                }
+        </style>
+    </head>
+    <body>
+        <div>Welcome to css Trainning</div>
+        <br>
+        <img src="beach1.avif" alt="beach=pic">
+
+        <img src="./fresh-orange.png" alt="ornge-pic" id="i1">
+        <div id="d2">
+            <br>
+            <br>
+            <a target="_blank" href="fresh-orange.png">click to view orange</a>
+        </div>
+        <br>
+        <br>
+        <div id="d3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>s.no</th>
+                        <th>list of item</th>
+                        <th>price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>mango shake</td>
+                        <td>rs 300</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>banana shake</td>
+                        <td>rs 150</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>mixed shake</td>
+                        <td>re 900</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+    </html>
